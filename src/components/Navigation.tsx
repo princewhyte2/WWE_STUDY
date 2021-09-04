@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   appBar: {
     backgroundColor: "white",
     color: "black",
-    borderBottomLeftRadius: "25px",
+    //borderBottomLeftRadius: "25px",
   },
   toolBar: {
     display: "flex",
@@ -92,9 +92,9 @@ export default function NavigationBar() {
               <Button variant="outlined" className={classes.outlinedButton}>
                 GET STARTED
               </Button>
-              <Button color="inherit">Find a study partner</Button>
-              <Button color="inherit">Join a study group</Button>
-              <Button color="inherit">Login</Button>
+              <Button>Find a study partner</Button>
+              <Button>Join a study group</Button>
+              <Button>Login</Button>
             </div>
           )}
         </Toolbar>
